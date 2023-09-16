@@ -1,0 +1,411 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1100px;
+        height: 600px;
+        border: 1px solid orangered;
+        display: flex;
+        justify-content: space-between;
+        margin: 75px auto;
+}
+.container>div{
+    width: calc(100% / 4);
+    height: 100%;
+    background-color: #242424;
+    color: #fff;
+
+}
+.third{
+    background-color: dodgerblue !important;
+    height: 110% !important;
+    transform: translateY(-5%);
+}
+.first{
+    border-right: 1px solid #ddd;
+    position: relative;
+}
+.first .one{
+    font-size: 25px;
+    text-transform: capitalize;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first .two{
+    font-size: 25px;
+        text-transform: capitalize;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+}
+.first .two::after{
+    content: "$";
+        position: absolute;
+        left: 35%;
+        top: 20%;
+        color: #fff;
+        font-size: 22px;
+}
+.first .two::before{
+    content: "/ mo";
+        position: absolute;
+        left: 60%;
+        top: 55%;
+        color: #fff;
+        font-size: 22px;
+}
+.first .three{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    color: #ddd !important;
+}
+.first .four{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    color: #ddd !important;
+    background-color: #2a2a2a !important;
+}
+.first .five{
+        width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            color: #ddd !important;
+}
+.first .six{
+        width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            color: #ddd !important;
+            background-color: #2a2a2a !important;
+}
+.first .seven{
+    width: 140px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ddd;
+        color: #ddd;
+        text-transform: capitalize;
+        position: absolute;
+        left: 50%;
+        top: 87%;
+        transform: translateX(-50%);
+}
+.second .one{
+    font-size: 25px;
+    text-transform: capitalize;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second .two{
+    font-size: 25px;
+        text-transform: capitalize;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+}
+.second .two::after{
+    content: "$";
+        position: absolute;
+        left: 35%;
+        top: 20%;
+        color: #fff;
+        font-size: 22px;
+}
+.second .two::before{
+    content: "/ mo";
+        position: absolute;
+        left: 60%;
+        top: 55%;
+        color: #fff;
+        font-size: 22px;
+}
+.second .three{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    color: #ddd !important;
+}
+.second .four{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    color: #ddd !important;
+    background-color: #2a2a2a !important;
+}
+.second .five{
+        width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            color: #ddd !important;
+}
+.second .six{
+        width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            color: #ddd !important;
+            background-color: #2a2a2a !important;
+}
+.second .seven{
+    width: 140px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ddd;
+        color: #ddd;
+        text-transform: capitalize;
+        position: absolute;
+        left: 42.3%;
+        top: 64.5%;
+        transform: translateX(-50%);
+}
+.third .one{
+font-size: 25px;
+    text-transform: capitalize;
+    width: 100%;
+    height: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 5%;
+}
+.third .two{
+    font-size: 25px;
+        text-transform: capitalize;
+        width: 100%;
+        height: 19%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transform: translate(0%, 120%);
+}
+.third .two::after{
+    content: "$";
+        position: absolute;
+        left: 35%;
+        top: 20%;
+        color: #fff;
+        font-size: 22px;
+}
+.third .two::before{
+    content: "/ mo";
+        position: absolute;
+        left: 60%;
+        top: 55%;
+        color: #fff;
+        font-size: 22px;
+}
+.third .three{
+    width: 100%;
+        height: 9%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        color: #ddd !important;
+        transform: translateY(12%);
+        position: absolute;
+        left: 0;
+        top: 40.5%;
+}
+.third .four{
+    width: 100%;
+        height: 9%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        color: #ddd !important;
+        background-color: dodgerblue !important;
+        position: absolute;
+        left: 0;
+        top: 50.5%;
+        border-top: 1px solid #ddd;
+}
+.third .five{
+    width: 100%;
+        height: 9%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        color: #ddd !important;
+        position: absolute;
+        left: 0;
+        top: 59.5%;
+}
+.third .six{
+        width: 100%;
+    width: 100%;
+        height: 9%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        color: #ddd !important;
+        background-color: dodgerblue !important;
+        position: absolute;
+        left: 0;
+        top: 68.7%;
+}
+.third .seven{
+    width: 140px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ddd;
+        color: #ddd;
+        text-transform: capitalize;
+        position: absolute;
+        left: 50%;
+        top: 84%;
+        transform: translateX(-50%);
+}
+.fourth .one {
+    font-size: 25px;
+    text-transform: capitalize;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth .two {
+    font-size: 25px;
+    text-transform: capitalize;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fourth .two::after {
+    content: "$";
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    color: #fff;
+    font-size: 22px;
+}
+
+.fourth .two::before {
+    content: "/ mo";
+    position: absolute;
+    left: 60%;
+    top: 55%;
+    color: #fff;
+    font-size: 22px;
+}
+
+.fourth .three {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    color: #ddd !important;
+}
+
+.fourth .four {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    color: #ddd !important;
+    background-color: #2a2a2a !important;
+}
+
+.fourth .five {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    color: #ddd !important;
+}
+
+.fourth .six {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    color: #ddd !important;
+    background-color: #2a2a2a !important;
+}
+
+.fourth .seven {
+    width: 140px;
+    width: 140px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ddd;
+        color: #ddd;
+        text-transform: capitalize;
+        position: absolute;
+        left: 75%;
+        top: 64%;
+        transform: translateX(-50%);
+}
